@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import myPic from '../assets/png/Edwardo-Samosir-removed-bg.png'
 import hamMenu from '../assets/svg/ham-menu.svg'
 import hamMenuClose from '../assets/svg/ham-menu-close.svg'
@@ -8,29 +9,33 @@ export default function MyNavbar (){
         <div className="header__content">
           <div className="header__logo-container">
             <div className="header__logo-img-cont">
-              <img
-                src={myPic}
-                alt="Edwardo Samosir Logo Image"
-                className="header__logo-img"
-              />
+              <Link to={"/"}>
+                <img
+                  src={myPic}
+                  alt="Edwardo Samosir Logo Image"
+                  className="header__logo-img"
+                />
+              </Link>
             </div>
-            <span className="header__logo-sub">Edwardo Samosir</span>
+            <Link to={"/resume"}>
+              <span className="header__logo-sub">Edwardo Samosir</span>
+            </Link>
           </div>
           <div className="header__main">
             <ul className="header__links">
               <li className="header__link-wrapper">
-                <a href="" className="header__link"> Home </a>
+                <Link to={"/"} className="header__link"> Home </Link>
               </li> 
               <li className="header__link-wrapper">
-                <a href="" className="header__link">About </a>
+                <Link to={"/about"} className="header__link">About </Link>
               </li>
               <li className="header__link-wrapper">
-                <a href="" className="header__link">
+                <Link to={"/projects"} className="header__link">
                   Projects
-                </a>
+                </Link>
               </li>
               <li className="header__link-wrapper">
-                <a href="" className="header__link"> Resume </a>
+                <Link to={"/resume"} className="header__link"> Resume </Link>
               </li>
             </ul>
             <div className="header__main-ham-menu-cont">
@@ -51,19 +56,19 @@ export default function MyNavbar (){
           <div className="header__sm-menu-content">
             <ul className="header__sm-menu-links">
               <li className="header__sm-menu-link">
-                <a href="./index.html"> Home </a>
+                <Link to={"/"}> Home </Link>
               </li>
   
               <li className="header__sm-menu-link">
-                <a href="./index.html#about"> About </a>
+                <Link to={"/about"}> About </Link>
               </li>
   
               <li className="header__sm-menu-link">
-                <a href="./index.html#projects"> Projects </a>
+                <Link to={"/projects"}> Projects </Link>
               </li>
   
               <li className="header__sm-menu-link">
-                <a href="./index.html#resume"> Resume </a>
+                <Link to={"/resume"}> Resume </Link>
               </li>
             </ul>
           </div>

@@ -3,7 +3,7 @@ import Layout from '../views/Layout'
 import Home from '../views/Home'
 import About from '../views/About'
 import Porfolio from '../views/Portfolio'
-
+import Resume from '../views/Resume'
 const router = createBrowserRouter([
     {
         path: "",
@@ -27,7 +27,7 @@ const router = createBrowserRouter([
             },
             {
                 path : '/resume',
-                element : <div>Ini halaman Resume</div>
+                element : <Resume />
             }
         ]
     } 

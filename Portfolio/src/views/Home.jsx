@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Home (){
     return (
         <section className="home-hero">
@@ -11,7 +13,7 @@ export default function Home (){
             </p>
           </div>
           <div className="home-hero__cta">
-            <a href="./#projects" className="btn btn--bg">Projects</a>
+            <Link to={"/projects"} className="btn btn--bg">Projects</Link>
           </div>
         </div>
         <div className="home-hero__socials">
