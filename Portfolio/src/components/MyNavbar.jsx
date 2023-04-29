@@ -30,7 +30,7 @@ export default function MyNavbar (){
                 </a>
               </li>
               <li className="header__link-wrapper">
-                <a href="" className="header__link"> Contact </a>
+                <a href="" className="header__link"> Resume </a>
               </li>
             </ul>
             <div className="header__main-ham-menu-cont">
@@ -63,7 +63,7 @@ export default function MyNavbar (){
               </li>
   
               <li className="header__sm-menu-link">
-                <a href="./index.html#contact"> Contact </a>
+                <a href="./index.html#resume"> Resume </a>
               </li>
             </ul>
           </div>

@@ -1,6 +1,7 @@
 import {createBrowserRouter} from 'react-router-dom'
 import Layout from '../views/Layout'
 import Home from '../views/Home'
+import Porfolio from '../views/Portfolio'
 
 const router = createBrowserRouter([
     {
@@ -17,7 +18,7 @@ const router = createBrowserRouter([
             },
             {
                 path : '/projects',
-                element : <div>Ini halaman Projects</div>
+                element : <Porfolio />
             },
             {
                 path : '/project-detail/:id',
