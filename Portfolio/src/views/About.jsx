@@ -15,20 +15,20 @@ export default function About (){
               <div className="about__content-details">
                 <p className="about__content-details-para">
                   Hey! It's
-                  <strong>Edwardo Samosir</strong>
+                  <strong> Edwardo Samosir</strong>
                   and I'm a <strong> Frontend Web Developer </strong> located in
                   Los Angeles. I've done
                   <strong> remote </strong>
                   projects for agencies, consulted for startups, and collaborated
                   with talented people to create
-                  <strong>digital products </strong>
+                  <strong> digital products </strong>
                   for both business and consumer use.
                 </p>
                 <p className="about__content-details-para">
                   I'm a bit of a digital product junky. Over the years, I've used
                   hundreds of web and mobile apps in different industries and
                   verticals. Feel free to
-                  <strong>contact</strong> me here.
+                  <strong> contact</strong> me here.
                 </p>
               </div>
               <a href="./#contact" className="btn btn--med btn--theme dynamicBgClr"

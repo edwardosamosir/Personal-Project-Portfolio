@@ -4,6 +4,9 @@ import Home from '../views/Home'
 import About from '../views/About'
 import Porfolio from '../views/Portfolio'
 import Resume from '../views/Resume'
+import PortfolioDetails from '../components/PortfolioDetails'
+
+
 const router = createBrowserRouter([
     {
         path: "",
@@ -23,7 +26,7 @@ const router = createBrowserRouter([
             },
             {
                 path : '/project-detail/:id',
-                element : <div>Ini halaman Project Detail</div>
+                element : <PortfolioDetails />
             },
             {
                 path : '/resume',
