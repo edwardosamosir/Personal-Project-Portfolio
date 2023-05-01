@@ -27,7 +27,7 @@ export default function Portfolio() {
                 <div className="projects__content">
                     {
                         portfolios?.map(el =>{
-                            return <PortfolioRow Portfolio={el} />
+                            return <PortfolioRow key={el.id} Portfolio={el} />
                         })
                     }
                 </div>

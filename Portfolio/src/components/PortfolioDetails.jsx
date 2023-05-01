@@ -11,7 +11,7 @@ export default function PortfolioDetails (){
     // console.log(portfolios)
     const { id } = useParams();
     const portfolio = portfolios.find(el => el.id == id)
-    console.log(portfolio)
+    // console.log(portfolio)
 
     return (
        <>
@@ -53,7 +53,7 @@ export default function PortfolioDetails (){
                  {
                   portfolio.tools.map(
                     el => {
-                      return <MyToolTag tool={el}/>
+                      return <MyToolTag key={el} tool={el}/>
                     }
                   )
                  }
@@ -76,7 +76,6 @@ export default function PortfolioDetails (){
                <Link
                   to={"/projects"}
                  className="btn btn--med btn--theme-inv project-details__links-btn"
-                 target="_blank"
                  >Go Back</Link>
              </div>
            </div>

@@ -19,7 +19,6 @@ export default function PortfolioRow({Portfolio}) {
             <Link
                 to={"/project-detail/"+ Portfolio.id}
                 className="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
             >View Details</Link>
         </div>
         </div>

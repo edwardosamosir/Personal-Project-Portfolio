@@ -1,25 +1,14 @@
+import MyCVPage1 from '../assets/pdf/EdwardoSamosirCV_page-0001.jpg'
+import MyCVPage2 from '../assets/pdf/EdwardoSamosirCV_page-0002.jpg'
+import MyCV from '../assets/pdf/EdwardoSamosirCV.pdf'
 
 export default function Resume() {
     return (
 
-        <section id="contact" class="contact sec-pad dynamicBg">
-            <div class="main-container">
-                <h2 class="heading heading-sec heading-sec__mb-med">
-                    <span class="heading-sec__main heading-sec__main--lt">Resume</span>
-                    <span class="heading-sec__sub heading-sec__sub--lt">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-                        tempora explicabo quae quod deserunt eius sapiente
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-                        tempora explicabo quae quod deserunt eius sapiente
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-                        tempora explicabo quae quod deserunt eius sapiente
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-                        tempora explicabo quae quod deserunt eius sapiente
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-                        tempora explicabo quae quod deserunt eius sapiente
-                    </span>
-                </h2>
-
+        <section id="contact" className="contact sec-pad dynamicBg">
+            <div className="main-container">
+                <img src={MyCVPage1} style={{width:"100%", height:"100%"}}  />
+                <img src={MyCVPage2} style={{width:"100%", height:"100%"}}  />
             </div>
         </section>
     )
