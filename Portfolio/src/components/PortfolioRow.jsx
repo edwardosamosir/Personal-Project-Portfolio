@@ -14,7 +14,7 @@ export default function PortfolioRow({Portfolio}) {
         <div className="projects__row-content">
             <h3 className="projects__row-content-title">{Portfolio.title}</h3>
             <p className="projects__row-content-desc">
-                {Portfolio.intro}
+                {Portfolio.shortDesc}
             </p>
             <Link
                 to={"/project-detail/"+ Portfolio.id}

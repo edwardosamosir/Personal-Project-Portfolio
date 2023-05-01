@@ -15,24 +15,14 @@ export default function About (){
                 <p className="about__content-details-para">
                   Hey! It's
                   <strong> Edwardo Samosir </strong>
-                  and I'm an <strong> Aspiring Full-Stack Developer </strong> based in
-                  Jakarta. I've done
-                  <strong> remote </strong>
-                  projects for agencies, consulted for startups, and collaborated
-                  with talented people to create
-                  <strong> digital products </strong>
-                  for both business and consumer use.
+                  and I'm an <strong> aspiring full-stack developer </strong> based in Jakarta. I have completed several projects during my IT bootcamp at <strong>Hacktiv8</strong>, which you can view here.
                 </p>
                 <p className="about__content-details-para">
-                  I'm a bit of a digital product junky. Over the years, I've used
-                  hundreds of web and mobile apps in different industries and
-                  verticals. Feel free to
-                  <strong> contact</strong> me here.
+                  I am open to job opportunities where I can contribute, learn, and grow as a software engineer. If you have an opportunity that matches my skills and experience, please don't hesitate to<strong> contact</strong> me.
                 </p>
               </div>
               <a href="https://www.linkedin.com/in/edwardosamosir/" className="btn btn--med btn--theme dynamicBgClr"
-                >Contact</a
-              >
+                >Contact</a>
             </div>
             <div className="about__content-skills">
               <h3 className="about__content-title">My Skills</h3>
